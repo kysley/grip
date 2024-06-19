@@ -10,13 +10,6 @@ import (
 )
 
 func main() {
-	// Parse flags
-	// match := flag.String("match", "*", "Blob pattern to match files")
-	// out := flag.String("out", "output.txt", "Output file")
-	// headFile := flag.String("head-file", "", "File containing header content")
-	// head := flag.String("head", "", "Inline header content")
-	// flag.Parse()
-
 	dir := os.Args[1]
 
 	match := flag.String("match", "*", "Glob pattern to match files")
